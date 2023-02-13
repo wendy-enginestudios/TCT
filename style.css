@@ -1727,7 +1727,10 @@ ul.red-bullets, li.red-bullets {
     }
 }
 
-.title-height {
-    line-height: 50px;
+@media (min-width: 1040px) {
+    .title-height-medium {
+        min-height: 60px;
+    }
 }
+
   
